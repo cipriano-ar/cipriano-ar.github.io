@@ -1,0 +1,37 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// COLORS
+$main-title-color: #FFDD99; /* #FBE3C4; */
+$sub-title-color: #ccc;
+$secondary-color: #88CC66;
+$main-font-color: #444;
+$projects-list-caption-color: #fff;
+$social-icon-color: rgba(34, 34, 34, 0.6);
+$footer-color: #323538;
+
+// HOVERS
+$link-hover: #FFCC66;
+
+$landing-page-img: url({{"../images/landing-page-bgd.jpg"}});
+
+// MIXINS
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+@mixin size($w, $h:$w) {
+	width: $w;
+	height: $h;
+}
+
+/*
+--------------
+IMPORTS
+--------------
+*/
+
+@import	"styles";
