@@ -3,7 +3,7 @@ layout: regular
 page_type: portfolio item
 title: Deal Seeker
 sub_title:
-item_url:
+item_url: http://cmazzieri.com/ds
 description: REMEMBER TO PLACE DESCRIPTION FOR SEO.
 next_item: /portfolio/shop/index.html
 prev_item: /portfolio/sj/index.html
@@ -17,13 +17,15 @@ prev_item: /portfolio/sj/index.html
 
 		<!-- PROJECT SCREENSHOT -->
 		<figure class="portf-item-screenshot">
-			<img src="{{"/images/portfolio/list/ds-list.jpg" | prepend: site.baseurl}}" alt="" />
+			<a href="{{page.item_url}}" target="_blank">
+				<img src="{{"/images/portfolio/list/ds-list.jpg" | prepend: site.baseurl}}" alt="" />
+			</a>
 		</figure>
 
 		<!-- CLIENT, DATE AND WEBSITE LINK -->
 		<p><b>Client:</b> Yoobee Web Bootcamp.<br>
 		<b>Date:</b> February 2015.<br>
-		<a href="{{page.item_url | prepend: site.baseur}}" target="_blank">Visit Website</a></p>
+		<a href="{{page.item_url}}" target="_blank">Visit Website</a></p>
 
 	</div>
 	

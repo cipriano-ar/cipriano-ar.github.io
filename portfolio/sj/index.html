@@ -3,7 +3,7 @@ layout: regular
 page_type: portfolio item
 title: Street Jackets
 sub_title:
-item_url:
+item_url: http://cmazzieri.com/sj
 description: REMEMBER TO PLACE DESCRIPTION FOR SEO.
 next_item: /portfolio/ds/index.html
 prev_item: /portfolio/jp/index.html
@@ -17,13 +17,15 @@ prev_item: /portfolio/jp/index.html
 
 		<!-- PROJECT SCREENSHOT -->
 		<figure class="portf-item-screenshot">
-			<img src="{{"/images/portfolio/list/sj-list.jpg" | prepend: site.baseurl}}" alt="" />
+			<a href="{{page.item_url}}" target="_blank">
+				<img src="{{"/images/portfolio/list/sj-list.jpg" | prepend: site.baseurl}}" alt="" />
+			</a>
 		</figure>
 
 		<!-- CLIENT, DATE AND WEBSITE LINK -->
 		<p><b>Client:</b> Street Jackets Baked Potatoes.<br>
 		<b>Date:</b> December 2014.<br>
-		<a href="{{page.item_url | prepend: site.baseur}}" target="_blank">Visit Website</a></p>
+		<a href="{{page.item_url}}" target="_blank">Visit Website</a></p>
 
 	</div>
 	
