@@ -13,3 +13,5 @@ my-linkedin: "https://nz.linkedin.com/in/cmazzieri"
 
 # Build settings
 markdown: kramdown
+
+exclude: [_layouts/default.html, _layouts/page.html, _layouts/post.html, _layouts/portfolio_item.html, assets, images/assets, php, feed.xml, images/skills/Thumbs.db]
