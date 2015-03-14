@@ -233,9 +233,6 @@ h4 + p {
 
 /* Typographic elements or colors will appear in this section as well */
 
-/* ---------------------
------   Navigation   -----
--------------------------*/
 
 .main-header.regular {
 	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -246,12 +243,16 @@ h4 + p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-image: $landing-page-img;
+	background-image: $landing-page-img-768;
 	top: 0;
 	left: 0;
 	width: 100%;
 	display: table;
 }
+
+/* ---------------------
+-----   Navigation   -----
+-------------------------*/
 
 #main-nav {
 	margin-top: 35px;
@@ -679,4 +680,23 @@ a, #posts-list li, #posts-list time, .projects-list .caption, .projects-list .ca
 		margin: 20px 0 0 0 !important;
 	}
 
+}
+
+/*
+* Media Queries for Home Page background image
+*/
+
+.main-header.home {
+	@include landing-page-img(768) {
+	 	background-image: $landing-page-img-768;
+	}
+	@include landing-page-img(1024) {
+		background-image: $landing-page-img-1024
+	}
+	@include landing-page-img(1280) {
+		background-image: $landing-page-img-1280
+	}
+	@include landing-page-img(1800) {
+		background-image: $landing-page-img-1800
+	}
 }
