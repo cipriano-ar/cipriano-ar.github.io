@@ -247,14 +247,11 @@ h4 + p {
 	@include landing-page-img(768) {
 	 	background-image: $landing-page-img-768;
 	}
-	@include landing-page-img(1024) {
-		background-image: $landing-page-img-1024
-	}
-	@include landing-page-img(1280) {
-		background-image: $landing-page-img-1280
+	@include landing-page-img(1200) {
+		background-image: $landing-page-img-1200;
 	}
 	@include landing-page-img(1800) {
-		background-image: $landing-page-img-1800
+		background-image: $landing-page-img-1800;
 	}
 }
 .main-header.regular {
