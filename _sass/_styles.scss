@@ -243,7 +243,8 @@ h4 + p {
 	width: 100%;
 	display: table;
 }
-.main-header.home {
+.main-header.home,
+.main-header.regular {
 	@include landing-page-img(768) {
 	 	background-image: $landing-page-img-768;
 	}
@@ -257,7 +258,7 @@ h4 + p {
 .main-header.regular {
 	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-	background-image: $landing-page-img-768;
+	// background-image: $landing-page-img-768;
 }
 
 /* ---------------------
