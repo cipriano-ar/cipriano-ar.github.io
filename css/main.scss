@@ -16,8 +16,7 @@ $footer-color: #323538;
 $link-hover: #FFCC66;
 
 $landing-page-img-768: url({{"../images/landing-page-bgd-768-height.jpg"}});
-$landing-page-img-1024: url({{"../images/landing-page-bgd-1024-height.jpg"}});
-$landing-page-img-1280: url({{"../images/landing-page-bgd-1280-height.jpg"}});
+$landing-page-img-1200: url({{"../images/landing-page-bgd-1200-height.jpg"}});
 $landing-page-img-1800: url({{"../images/landing-page-bgd-1800-height.jpg"}});
 
 // MIXINS
@@ -34,7 +33,7 @@ $landing-page-img-1800: url({{"../images/landing-page-bgd-1800-height.jpg"}});
 	@if $height == 768 {
 		@media screen and  #{$height768} { @content; }
 	}
-	@else if $height == 1280 {
+	@else if $height == 1200 {
 		@media screen and #{$height1200} { @content; }
 	}
 	@else if $height == 1800 {
