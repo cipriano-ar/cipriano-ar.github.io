@@ -6,7 +6,8 @@ email: cmazzieri@gmail.com
 description: > #"baseurl:"
   I am a Front End Web Developer who enjoys creating simple, nice looking and fast websites. My main skills are HTML5, CSS3, Javascript, Jquery, Liquid Template Language, Jekyll and Google Maps API.
 baseurl: ""
-url: http://cmazzieri.com
+# url: http://cmazzieri.com
+url: http://localhost:4000
 my-facebook: "http://facebook.com/mazzieric"
 my-github: "https://github.com/cmazzieri"
 my-linkedin: "https://nz.linkedin.com/in/cmazzieri"

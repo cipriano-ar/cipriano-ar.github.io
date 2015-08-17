@@ -4,6 +4,8 @@
 @charset "utf-8";
 
 // COLORS
+//#############################
+
 $main-title-color: #FFDD99; /* #FBE3C4; */
 $sub-title-color: #ccc;
 $secondary-color: #88CC66;
@@ -13,6 +15,8 @@ $social-icon-color: rgba(34, 34, 34, 0.6);
 $footer-color: #323538;
 
 // HOVERS
+//#############################
+
 $link-hover: #FFCC66;
 
 $landing-page-img-768: url({{"../images/landing-page-bgd-768-height.jpg"}});
@@ -20,6 +24,8 @@ $landing-page-img-1200: url({{"../images/landing-page-bgd-1200-height.jpg"}});
 $landing-page-img-1800: url({{"../images/landing-page-bgd-1800-height.jpg"}});
 
 // MIXINS
+//#############################
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
