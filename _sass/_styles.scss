@@ -534,13 +534,6 @@ figcaption {
   -o-transition: all 320ms ease; /* Opera */
   transition: all 320ms ease;
 }
-.projects-list a:hover img {
-	-webkit-transform:scale(1.04); /* Safari and Chrome */
-  -moz-transform:scale(1.04); /* Firefox */
-  -ms-transform:scale(1.04); /* IE 9 */
-  -o-transform:scale(1.04); /* Opera */
-   transform:scale(1.04);
-}
 .projects-list .caption {
 	position: absolute;
 	top: 0;
@@ -573,6 +566,15 @@ figcaption {
 .projects-list a:hover {
 	box-shadow: 6px 5px 0 0 #ccc;
 }
+
+.projects-list a:hover img {
+	-webkit-transform:scale(1.04); /* Safari and Chrome */
+  -moz-transform:scale(1.04); /* Firefox */
+  -ms-transform:scale(1.04); /* IE 9 */
+  -o-transform:scale(1.04); /* Opera */
+   transform:scale(1.04);
+}
+
 .projects-list a:hover .caption {
 	background: rgba(34, 34, 34, 0.3);
 }
