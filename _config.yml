@@ -1,5 +1,5 @@
 remote_theme: just-the-docs/just-the-docs
-theme: "just-the-docs" #COMENTAR ESTA LINEA cuando se haga push
+#theme: "just-the-docs" #COMENTAR ESTA LINEA cuando se haga push
 title: Cripto Reseñas
 logo: logo.png
 description: Un sitio de reseñas sobre el mundo Cripto
