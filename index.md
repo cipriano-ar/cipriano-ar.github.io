@@ -6,7 +6,7 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# Focus on writing good documentation.
+# Focus on writing good documentation. Go hard!!!
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
@@ -16,6 +16,7 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 
 ---
 
+# Titulo 1
 ## Getting started
 
 ### Dependencies
