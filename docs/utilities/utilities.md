@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Libros
+title: Utilities
 nav_order: 4
 has_children: true
-permalink: docs/libros
+permalink: docs/utilities
 ---
 
 # Utilities

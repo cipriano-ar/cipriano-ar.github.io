@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Typography
-parent: Libros
+parent: Utilities
 ---
 
 # Typography Utilities

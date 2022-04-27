@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Color
-parent: Libros
+parent: Utilities
 ---
 
 # Color Utilities
