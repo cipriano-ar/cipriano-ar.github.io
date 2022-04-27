@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Configuration
+title: Libros
 nav_order: 2
 ---
 
-# Configuration
+# Configurationes
 {: .no_toc }
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.

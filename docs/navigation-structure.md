@@ -4,7 +4,7 @@ title: Navigation Structure
 nav_order: 5
 ---
 
-# Navigation Structure
+# Navigation Structures
 
 {: .no_toc }
 
