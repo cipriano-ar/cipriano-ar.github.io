@@ -6,7 +6,7 @@ description: Un sitio de reseñas sobre el mundo Cripto
 baseurl: ""
 url: "https://cmazzieri.github.io"
 
-#permalink: pretty
+permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/"]
 
 # Enable or disable the site search
@@ -41,7 +41,7 @@ search:
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "^ arriba"
+back_to_top_text: "^"
 
 footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
 
