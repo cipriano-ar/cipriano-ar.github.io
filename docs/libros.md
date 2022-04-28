@@ -12,7 +12,7 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 <details markdown="block">
   <summary>
-    Table of contents  
+    Tabla de Contenidos
   </summary>
   {: text-delta }
   1. TOC
